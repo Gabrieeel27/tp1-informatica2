@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include <funciones.h>
+#include "funciones.h"
 
 int main(){
    printf("Bienvenido al TP n°1 de Informatica 2");
