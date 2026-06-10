@@ -7,7 +7,7 @@
 #define S_2 2        lo habia hecho asi porque quise hacerme el distinto pero es mas facil para reutilizar codigo si lo dejo igual que como nos lo dio
 #define S_3 3 */
 
-#defineCANT_ARTICULOS 60
+#define CANT_ARTICULOS 60
 #define SUCURSAL_1 0
 #define SUCURSAL_2 1
 #define SUCURSAL_3 2
