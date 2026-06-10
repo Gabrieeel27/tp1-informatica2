@@ -12,10 +12,6 @@ void iniciar_articulos(articulos_t art[], int cant){
   } //para asegurarme de que todo inicie en 0
 }
 
-  void iniciar_sistema (articulos_t[], int cant, int orden[]){
-      int opc =0, i, sucursal, index;
-       char articulo [90];
-  }
 //Ordenamiento (el burbujeo para el ordenamiento sera el mismo que se uso en el codigo original que nos dio)
 
  do
