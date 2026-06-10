@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include <funciones.h>
+#include "funciones.h"
 
 void iniciar_articulos(articulos_t art[], int cant){
   for(int i=0; i < cant; i++){
