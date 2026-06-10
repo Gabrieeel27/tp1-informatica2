@@ -11,7 +11,6 @@ void iniciar_articulos(articulos_t art[], int cant){
   art[i].total = 0;
   } //para asegurarme de que todo inicie en 0
 }
-// printf("Bienvenido al TP n°1 de Informatica 2")
 
   void iniciar_sistema (articulos_t[], int cant, int orden[]){
       int opc =0, i, sucursal, index;
