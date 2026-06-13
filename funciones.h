@@ -19,6 +19,6 @@
 
 //los prototipos
 
-void iniciar_articulos (articulos_t[], int cant); //deje el corchete vacio para que la funcion pueda recibir un vector cualquiera
-void imprimir_articulos (articulos_t[], int cant);
-void ordenar_articulos (articulos_t[], int cant);
+void iniciar_articulos (articulos_t *articulos, int cant); //deje el corchete vacio para que la funcion pueda recibir un vector cualquiera
+void imprimir_articulos (articulos_t *articulos, int cant);
+void ordenar_articulos (articulos_t *articulos, int cant);
