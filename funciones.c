@@ -2,7 +2,7 @@
 #include <string.h>
 #include "funciones.h"
 
-void iniciar_articulos(articulos_t art[], int cant){
+void iniciar_articulos(articulos_t art *articulos, int cant){
   for(int i=0; i < cant; i++){
   art[i].descripcion[0] =;
   articulos[i].cantidad_sucursal[SUCURSAL_1] = 0;
@@ -14,7 +14,7 @@ void iniciar_articulos(articulos_t art[], int cant){
 
 //Ordenamiento (el burbujeo para el ordenamiento sera el mismo que se uso en el codigo original que nos dio)
 
-    void ordenar_articulos (articulos_t articulos[], int cant){
+    void ordenar_articulos (articulos_t *articulos, int cant){
          int opc,i;
          char articulo [90];
          int articulo_index;  
@@ -45,7 +45,7 @@ void iniciar_articulos(articulos_t art[], int cant){
         }
     }
 }
-void imprimir_articulos (articulos_t[], int cant, int orden[]){
+void imprimir_articulos (articulos_t *articulos, int cant, int orden[]){
    int i=0;
    while (i < cant && articulos[i].descripcion[0]){
    printf("ARTICULO?\nSucursal: 1\nSucursal: 2\nSucursal: 3\Total");
